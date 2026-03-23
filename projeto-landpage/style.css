@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+}
+
+h2{
+    color: #414241;
+}
+
+nav{
+    height: 50px;
+    background-color: #1A1A1A;
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 30px;
+    position: relative;
+        right: 150px;
+        top: 15px;
+}
+
+a{
+    color: #9B9C9B;
+    text-decoration: none;
+}
+
+section#home{
+    height: 420px;
+}
+
+.img-home{
+    position: relative;
+    width: 1599px;
+}
+
+.home > div{
+    width: 700px;
+    height: 300px;
+    color: #ffffff;
+    position: relative;
+        bottom: 400px;
+        left: 200px;       
+}
+
+.home h1{
+    font-size: 70px;
+}
+
+.home span{
+    margin-top: 20px;
+    display: block;
+    font-size: 30px;
+    color: #3B7F9D;
+}
+
+.home button{
+    width: 300px;
+    font-size: 20px;
+    color: #7E7E7E;
+    margin-top: 30px;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sobre{
+    height: 500px;
+}
+
+.sobre img{
+    position: relative;
+        bottom: 330px;
+        left: 1150px;
+    width: 370px;
+}
+
+.sobre > div{
+    margin-top: 50px;
+    width: 850px;
+    position: relative;
+        left: 200px;
+}
+
+.sobre > div h2{
+    font-size: 50px;
+}
+
+.sobre > div p{
+ 
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+section#projeto{
+    height: 500px;
+}
+
+.my-projects{
+    height: 500px;
+    position: relative;
+    left: 200px;
+}
+
+.my-projects h2{
+    font-size: 50px;
+}
+
+.my-projects span{
+    font-size: 30px;
+}
+
+.my-projects div.imagem{
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.my-projects img{
+    width: 350px;
+}
+
+.my-projects{
+    width: 1300px;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.my-projects button{
+    color: #ABABAA;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    background-color: #171817;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #171817;
+    height: 100px;
+}
+footer > div{
+    color: #ffffff;
+}
+footer span{
+    font-size: 20px;
+    position: relative;
+        left: 200px;
+        top: 30px;
+
+}
+div.links{
+    display: flex;
+    justify-content:right ;
+    position: relative;
+        right: 150px;
+        bottom: 20px;
+    gap: 20px;
+    
+}
+footer img{
+    width: 80px;
+}
