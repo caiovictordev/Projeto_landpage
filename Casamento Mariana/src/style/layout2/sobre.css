@@ -1,0 +1,23 @@
+#sobre{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+#sobre h1{
+    grid-column: 4 span;
+    text-align: center;
+    margin-top: 20vh;
+}
+#sobre p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.p1, .p2, .p3, .p4{
+    grid-column: 2 span;
+}
+.p5{
+    grid-column: 4 span;
+}

@@ -1,0 +1,35 @@
+main{
+    width: 100%;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../assets/images/backgroundConvite.jpeg');
+}
+
+/* Contador Regressivo */
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'poppins';
+}
+.title{
+    grid-column: 4 span;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.value{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.name{
+    font-size: 16px;
+    color: #fff;
+}
+/* Fim Contador */

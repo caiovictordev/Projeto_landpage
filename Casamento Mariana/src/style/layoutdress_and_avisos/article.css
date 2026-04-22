@@ -1,0 +1,42 @@
+article{
+ background-image: linear-gradient(#f5f5dce7, #f5f5dce7), url('../../assets/images/DSCF6556.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.titulos{
+    font-family: var(--text-padrao);
+    text-align: center;
+    h1{
+        font-weight: 400;
+        padding-top: 60px;
+        font-size: 90px;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 60px;
+        margin-bottom: 80px;
+    }
+}
+.grids{
+    margin: 0 auto;
+    justify-items: center;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.grid{
+    width: 400px;
+    display: flex;
+    span{
+         font-family: var(--text-padrao);
+        padding-top: 50px;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+    img{
+        width: 40%;
+    }
+}
